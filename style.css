@@ -67,21 +67,39 @@ h2.intro_1 {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
 }
-{
-    box-sizing: border-box;
-}
-hr {
-    border: dotted #0d6efd 9px;
+
+hr.break {
+    border: dotted #0d6efd 8px;
     border-bottom: none;
-    width: 4%;
-    margin: 100px auto;
+    width: 10%;
+    margin: 5px 10px;
+    text-align: center;
+    margin-block-start: 0.5em;
+    margin-block-end: 3em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
     
 }
-/*.py-5 {
-    padding-top: 1rem;
-    padding-bottom: 3rem;
+
+.contact-me {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 40px auto 60px;
+    text-align: center;
+
 }
-.px-4 {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-}*/
+.btn {border-radius: 8px;
+font-family: "Montserrat", sans-serif;
+color: #ffffff;
+font-size: 20px;
+padding: 10px 20px 10px 20px;
+text-decoration: none;
+background-image: linear-gradient(to bottom, #0d6efd, #0d6efd);
+}
+.bottom-container {
+    background-color: #0d6efd;
+    padding: 20px 0 20px;
+    text-align: center;
+}
